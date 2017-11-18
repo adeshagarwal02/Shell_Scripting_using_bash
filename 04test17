@@ -1,0 +1,9 @@
+#!/bin/bash
+file="/etc/passwd"
+IFSOLD=$IFS
+IFS=:
+for city in `cat $file`
+do
+	echo "$city"
+done
+IFS=$IFSOLD

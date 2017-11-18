@@ -1,0 +1,8 @@
+#!/bin/bash
+for test in Delhi Haryana Punjab Himachal Rajasthan Karnatka
+do 
+	echo $test
+done
+echo "The last state we have visited $test"
+test=Bengal
+echo "Wait, now we're visiting $test" 

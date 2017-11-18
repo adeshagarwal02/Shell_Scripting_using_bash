@@ -1,0 +1,10 @@
+#!/bin/bash
+for file in /home/adesh/*
+do
+	if [ -d "$file" ]
+	then
+		echo "$file is directory"
+	else
+		echo "$file is a file"
+	fi
+done > output.txt

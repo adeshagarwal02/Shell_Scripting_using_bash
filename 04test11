@@ -1,0 +1,6 @@
+#!/bin/bash
+for test in Delhi Haryana Punjab Himachal Rajasthan Karnatka
+do 
+	echo $test
+done
+

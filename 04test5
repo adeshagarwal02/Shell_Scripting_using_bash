@@ -1,0 +1,7 @@
+#! /bin/bash
+val1=10
+val2=11
+if [ $val1 -gt 5 ] #space problem
+then
+	echo "The test value $val1 is greater than 5"
+fi

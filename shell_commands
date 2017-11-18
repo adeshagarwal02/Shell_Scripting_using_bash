@@ -1,0 +1,52 @@
+chsh -s <new_defult_shell> <username>  // to change shell
+-----------------------------------------------------------
+set history=<any integer value> //will store the history upto the value given 
+-------------------------------------------------------------------------------
+<: The process is running at high prioriy.
+N: The process is running at low priority.
+L: The process has pages locked in memory.
+s: The process is a session leader.
+l: The process is multi-threaded.
++: The process is running in the forground.
+----------------------------------------------------------
+if you want to run two commands together, you can enter them on the same prompt line. separated with a semicolon;
+$ date ; who
+----------------------------------------------------------
+linux exit status codes
+
+0 -> Successful completion of the command
+1 -> General unkown error 
+2 -> missuse of shell
+126 ->  The command cant execute 
+127 -> command not found
+128 -> Invalid exit argument 
+128+x -> Fatal erroe with linux signal x
+130 -> command terminate with ctl-c
+255 -> Eixt status out of range
+------------------------------------------------------------
+Numeric Comparison 
+
+n1 -eq n2  -> check if n1 equal to n2
+n1 -ge n2  -> check if n1 greater than equal to n2
+n1 -gt n2  -> check if n1 greater than to n2
+n1 -le n2  -> check if n1 less than equal to n2
+n1 -lt n2  -> check if n1 less than to n2
+n1 -ne n2  -> check if n1 not equal to n2
+----------------------------------------------------------------
+string comparision
+
+str1 = str2  -> Check if str1 is the same as string str2
+str1!= str2  -> Check if str1 is not the same as str2
+str1 < str2  -> Check if str1 is less than str2
+str1 > str2  -> Check if str1 is greater than str2
+-n str1      -> Check if str1 has a length greater than zero.
+-z str1      -> Check if str1 has a length of zero.
+----------------------------------------------------------------
+
+
+
+
+
+
+
+

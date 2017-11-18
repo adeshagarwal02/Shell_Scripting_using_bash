@@ -1,0 +1,6 @@
+#!/bin/bash
+file="states"
+for city in `cat $file`
+do
+	echo "Have you visited $city?"
+done

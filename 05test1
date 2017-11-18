@@ -1,0 +1,8 @@
+#!/bin/bash
+diskusage()
+{
+	df -h;
+}
+{ a=2;}
+echo $a
+diskusage

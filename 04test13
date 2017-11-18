@@ -1,0 +1,9 @@
+#!/bin/bash
+for test in I don't know if this'll work
+do
+	echo "word:$test"
+done
+for test in I don\'t know if "this'll" work  #two was to remove error
+do
+	echo "word:$test"
+done

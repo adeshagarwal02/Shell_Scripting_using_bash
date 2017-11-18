@@ -1,0 +1,12 @@
+#!/bin/bash
+quit()
+{
+	exit 0
+}
+greeting()
+{
+	echo "Greetings!Thanks for running this function!"
+}
+greeting
+quit
+echo "You will never see this secreate msg"

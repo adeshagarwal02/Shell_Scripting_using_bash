@@ -1,0 +1,11 @@
+#! /bin/bash
+file='/home/adesh/emblogic/*'
+for files in $file
+do
+if [ -d $files ]
+then
+echo "$files it is a directory"
+else 
+echo "$files is a file"
+fi 
+done

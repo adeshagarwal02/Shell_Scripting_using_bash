@@ -1,0 +1,9 @@
+#!/bin/bash
+file="states"
+IFSOLD=$IFS
+IFS=$'\n'
+for city in `cat $file`
+do
+	echo "Have you visited $city?"
+done
+IFS=$IFSOLD

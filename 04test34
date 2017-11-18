@@ -1,0 +1,6 @@
+#!/bin/bash
+for state in Punjab "Jammu and Kashmir" Delhi "Uttar Pradesh" Assam
+do
+	echo "$state is the next plase to go"
+done | sort > output.txt
+echo "This completes our travels"

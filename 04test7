@@ -1,0 +1,6 @@
+#!/bin/bash
+testuser=adesh
+if [ $USER = $testuser ]
+then
+	echo "Welcome $testuser"
+fi

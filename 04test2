@@ -1,0 +1,6 @@
+#! /bin/bash
+if asdfg
+then 
+	echo "it didn't worked"
+fi
+echo "Outside if"

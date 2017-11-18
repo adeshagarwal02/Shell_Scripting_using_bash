@@ -1,0 +1,17 @@
+#! /bin/bash 
+val1=10
+val2=20
+if [ $val1 -gt 5 ]
+then
+echo "$val1 > 5"
+else
+echo "$val1< 5"
+fi 
+if [ $val2 -gt 5 ]
+then
+echo "$val2 > 5"
+else
+echo "$val2 < 5"
+fi 
+
+
