@@ -1,0 +1,25 @@
+#! /bin/bash
+# extracting command line options and values 
+echo "All parameters are:$@"
+echo "Total number of parameters are: $#"
+while [ -n "$1" ]
+do
+	case "$1" in 
+		-a) echo "Found option $1";;
+		-b) param=$2 
+		echo "Found option $1 having parameter $param"
+		shift ;;  #shift n is shift by n times
+		-c) echo "Found option $1";;
+		*) echo "There is no such option $1";;
+	esac
+	shift	
+done
+count=0
+for parma in "$@"
+do 
+	echo "Param $count: $param"
+	count= $[ $count + 1 ]
+done
+echo "Total number of parameters are: $count"
+echo "All parameters are:$@"
+echo "Total number of parameters are: $#"

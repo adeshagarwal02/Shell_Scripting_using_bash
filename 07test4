@@ -1,0 +1,6 @@
+#! /bin/bash
+total=$[ ${10} * ${11} ]
+echo "The tenth parameter is ${10}"
+echo "The tenth parameter is ${11}"
+echo "multiplication is $total"
+#more than 9 parameters 

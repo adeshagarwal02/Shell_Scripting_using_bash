@@ -1,0 +1,4 @@
+#! /bin/bash
+#counting parameters
+echo "There were $# parameters supplied"
+

@@ -1,0 +1,4 @@
+#! /bin/bash
+#testing $* and $@
+echo "Using the \$* mathod: $*"
+echo "Using the \$@ method: $@"

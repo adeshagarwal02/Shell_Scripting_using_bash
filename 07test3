@@ -1,0 +1,7 @@
+#! /bin/bash
+echo "Hello $1, How are you"
+
+
+# ./07test3 Adesh
+# ./07test3 "Adesh Agarwal"
+# ./07test 'Adesh Agarwal'
