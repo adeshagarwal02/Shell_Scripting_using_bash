@@ -1,0 +1,6 @@
+#! /bin/bash
+s/jumpp/jumps/
+s/dog/cat/
+
+# Reading editor command froom file
+#sed -f 10test2 data1
