@@ -1,2 +1,2 @@
-Shell Scripting
-Lets do and learn some shell scripting
+Shell Scripting (BASH) 
+#Lets do and learn some shell scripting
