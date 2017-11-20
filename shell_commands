@@ -42,10 +42,27 @@ str1 > str2  -> Check if str1 is greater than str2
 -n str1      -> Check if str1 has a length greater than zero.
 -z str1      -> Check if str1 has a length of zero.
 ----------------------------------------------------------------
+sed command (stream editor)
+s -> substitutes a second text string for the first string pattern specified between the forward slash
+example:
+echo "This is a test"|sed 's/test/big test/'
 
+sed -e: editing mor than two lines
+exmple:
+sed -e '
+> s/dog/cat/
+> s/fox/elephant/
+> s/brown/green/
+> s/jumpp/jumps/' data1
+or you can write as
+sed -e 's/dog/cat/;s/fox/elephant/;s/brown/green/; s/jumpp/jumps/' data1
 
+sed -f: reading editor command from file 
 
-
+A number, indicating the pattern occurrence for which new text should be substituted.
+g - Indecates that new text should be substituded for all occurrences of the existing text.
+p- Indectes that the contants of the orignal line should be printed 
+w file - Write the result of substitution to a file
 
 
 
