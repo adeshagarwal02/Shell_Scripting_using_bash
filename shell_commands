@@ -65,5 +65,9 @@ p- Indectes that the contants of the orignal line should be printed
 w file - Write the result of substitution to a file
 
 
+Numeric line addressing:
+sed '2s/jumpp/jumps/' data1        # this will modify at line 2
+sed '2,3s/jumpp/jumps/' data1        #range  this will modify at line 2 to line 3
 
+sed '2,$s/jumpp/jumps/' data1        # this will modify from line 2
 
