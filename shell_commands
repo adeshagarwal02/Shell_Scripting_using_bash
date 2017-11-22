@@ -71,3 +71,34 @@ sed '2,3s/jumpp/jumps/' data1        #range  this will modify at line 2 to line 
 
 sed '2,$s/jumpp/jumps/' data1        # this will modify from line 2
 
+Using text pattern filters
+format:
+/pattern/command
+
+example:
+sed '/adesh/s/bash/csh/' /etc/passwd
+
+Deleting line
+ 
+sed '2d' data3
+sed '2,3d' data3
+sed '3,$d' data3
+sed '/line 3/d' data3
+sed '/line 1/,/line 3/d' data3     #range from line1 to lin3 
+
+Insertion and appending text
+
+The insert command (i) add a new line before spacifed line 
+The append commend (a) add a new line after spacified line
+
+
+sed 'i\This is first line\' data1
+sed '3i\this is third line\' data1
+sed '$i\this is last line\' data1
+sed '2,5i\this is line\' data1
+
+sed 'a\This is second line\' data1
+sed '3a\this is forth line\' data1
+sed '$a\this is last line\' data1
+sed '2,5a\this is line\' data1
+
