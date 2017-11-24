@@ -101,4 +101,17 @@ sed 'a\This is second line\' data1
 sed '3a\this is forth line\' data1
 sed '$a\this is last line\' data1
 sed '2,5a\this is line\' data1
+----------------------------------------------------------------------------------------
+The ANSI SGR Control 
 
+0-> Reset to normal mode
+1-> set to botd intensity
+2-> set to faint intesity
+3-> use italic intesity
+4-> use single underline.
+5-> use slow blink.
+6-> use fast blink.
+7-> Reverse foreground/background colors.
+8-> set foreground color to background color.
+----------------------------------------------------------------------------
+ 
